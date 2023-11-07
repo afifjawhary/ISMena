@@ -1,0 +1,21 @@
+.entry-content:has(.project_content){
+	display: flex;
+	align-items: flex-start;
+	justify-content: start;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 99%;
+}
+.entry-content:before{
+	display: none!important;
+}
+.project_content{
+	margin:0 !important;
+	flex:1 0 25%;
+}
+.project_content .post-thumbnail .wp-post-image{
+	max-height: 400px;
+	min-height: 400px;
+	object-fit: cover;
+}
